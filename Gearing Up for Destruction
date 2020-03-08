@@ -67,3 +67,4 @@ def solution(pegs):
             radii.append(r)
 
     return [radii[-1].numerator, radii[-1].denominator]
+	
