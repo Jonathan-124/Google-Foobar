@@ -23,13 +23,6 @@ def solution(pegs):
         else:
             return False
 
-    # Helper function to see if there are any solutions with radius < 1
-    def filterneg(n):
-        if n < 1:
-            return True
-        else:
-            return False
-
     i, j, r = 0, 0, 0
     radii_sums = []
     radii = []
