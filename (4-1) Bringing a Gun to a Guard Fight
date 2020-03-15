@@ -75,7 +75,7 @@ class Vector:
     def __init__(self, v):
         self.x = v[0]
         self.y = v[1]
-        self.gcd = abs(fractions.gcd(v[0], v[1]))
+        self.gcd = math.gcd(v[0], v[1])
 
     def vector(self):
         return [self.x, self.y]
